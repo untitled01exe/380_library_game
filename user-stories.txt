@@ -1,16 +1,18 @@
-ST1-- As a player, I can adjust the difficulty/expanse of the game
+IDENTIFIER  SIZE-EST  STORY
 
-ST2-- As a player, I shall have access to well-organized menus
+ST1--       2         As a player, I can adjust the difficulty/expanse of the game
 
-ST3-- As a player, I expect the game shall run pleasantly and without fatal error
+ST2--       4         As a player, I shall have access to well-organized menus
 
-ST4-- As a player, I expect individual games to be unique as described in the bio
+ST3--       4         As a player, I expect the game shall run pleasantly and without fatal error
 
-ST5-- As a player. I shall be able to efficiently traverse through sections of the game
+ST4--       5         As a player, I expect individual games to be unique as described in the bio
 
-ST6-- As a player, I expect an engaging and entertaining dialogue
+ST5--       3         As a player. I shall be able to efficiently traverse through sections of the game
 
-ST7-- As a player, I expect the game to possess a challenge in the form of a time attack
+ST6--       1         As a player, I expect an engaging and entertaining dialogue
 
-ST8-- As a player, I expect efficiency; a relatively short load time
+ST7--       1         As a player, I expect the game to possess a challenge in the form of a time attack
+
+ST8--       5         As a player, I expect efficiency; a relatively short load time
 
