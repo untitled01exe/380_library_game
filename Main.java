@@ -1,14 +1,19 @@
+import java.io.FileNotFoundException;
+import java.util.concurrent.TimeUnit;
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-
-    public void screen_print(String[] screen) {
-        String final_screen = "";
-        for(int i = 0; i < 36; i++){
-            final_screen = final_screen + screen[i] + '\n';
+    public static void main(String[] args) throws FileNotFoundException {
+        Screen s = new Screen();
+        s.config_test();
+        s.build_screen();
+        s.splash_screen();
+        System.out.println("");
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-        System.out.println(final_screen);
+        BkGenerator bk = new BkGenerator();
+        bk.generator();
     }
 }
