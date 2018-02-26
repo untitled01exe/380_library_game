@@ -1,0 +1,17 @@
+IDENTIFIER   PRIORITY	REQUIREMENT
+
+REQ1 		4 	The system shall allow users to choose the amount of books to generate.
+
+REQ2 		5 	The system shall allow users to navigate menus.
+
+REQ3 		5 	The system shall give players a pleasant gaming experience.
+
+REQ4 		4 	The system shall generate an adequate number of randomzied books, with few repeats.
+
+REQ5 		4 	The system shall allow players to efficiently traverse through pages of books
+	
+REQ6 		1 	The system shall provide an entertaining backstory to the game.
+
+REQ7 		3 	The system shall provide some sort of timed mode.
+
+REQ8 		2 	The system shall load quickly, generating the necessary objects to play in the most efficient way possible.
