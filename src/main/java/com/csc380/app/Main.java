@@ -1,7 +1,14 @@
+package com.csc380.app;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) throws FileNotFoundException {
+        //System.out.println("Hello World!");
+
+    	ArrayList<Book> books = BkGenerator.generator();
     }
 
     public void screen_print(String[] screen) {

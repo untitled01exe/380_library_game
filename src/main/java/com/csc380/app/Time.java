@@ -1,3 +1,5 @@
+package com.csc380.app;
+
 public class Time {
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();

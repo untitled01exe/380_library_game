@@ -1,3 +1,5 @@
+package com.csc380.app;
+
 import java.util.Scanner;
 
 public class Geometry{
