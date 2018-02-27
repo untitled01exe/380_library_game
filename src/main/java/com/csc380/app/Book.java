@@ -1,3 +1,5 @@
+package com.csc380.app;
+
 public class Book {
 	
 	private String title;
@@ -7,10 +9,10 @@ public class Book {
 	private int itemID;
 
 	public Book (String t, String a, String b, String cn, int id) {
-		title = t;
-		author = a;
-		bio = b;
-		callNum = cn;
+		title = t + " ";
+		author = a + " ";
+		bio = b + " ";
+		callNum = cn + " ";
 		itemID = id;
 	}
 
@@ -32,5 +34,9 @@ public class Book {
 
 	public int getID() {
 		return itemID;
+	}
+	
+	public String toString() {
+		return callNum + title + author + bio + itemID;
 	}
 }
