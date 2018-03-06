@@ -1,3 +1,4 @@
+package com.csc380.app;
 public class Book {
 	
 	private String title;

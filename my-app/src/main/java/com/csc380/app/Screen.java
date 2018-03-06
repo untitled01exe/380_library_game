@@ -1,3 +1,4 @@
+package com.csc380.app;
 import java.util.concurrent.TimeUnit;
 
 public class Screen {

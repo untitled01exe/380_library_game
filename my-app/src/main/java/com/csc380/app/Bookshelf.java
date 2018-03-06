@@ -69,8 +69,8 @@ public class Bookshelf {
     public ArrayList<Integer> AngryLibrarian(ArrayList<String> b) { //this method will eventually return a re-indexed ArrayList of Books
 
         Random rand = new Random();
-        ArrayList<Integer> r_indices = new ArrayList<>();
-        ArrayList<Integer> used = new ArrayList<>();
+        ArrayList<Integer> r_indices = new ArrayList<Integer>();
+        ArrayList<Integer> used = new ArrayList<Integer>();
 
         while (r_indices.size() != books.size()) {
 
