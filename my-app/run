@@ -4,6 +4,6 @@ mvn clean
 mvn package
 cp src/main/resources/Subjects.txt Subjects.txt
 cp src/main/resources/SubSubjects.txt SubSubjects.txt
-java -cp "target/classes/" Main
+java -cp "target/classes/" com.csc380.app.Main
 rm Subjects.txt
 rm SubSubjects.txt
