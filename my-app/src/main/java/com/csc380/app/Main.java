@@ -14,5 +14,6 @@ public class Main {
             c.nextCommand(token);
             token = input.nextLine();
         }
+
     }
 }
