@@ -7,7 +7,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class BkGeneratorTest extends TestCase {
+public class BkGeneratorTests extends TestCase {
 	ArrayList<Book> books = new ArrayList<Book>();
 
 	public void testArrayListCreation() throws FileNotFoundException{
