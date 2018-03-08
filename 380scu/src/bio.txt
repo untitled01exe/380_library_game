@@ -1,5 +1,0 @@
-BIO:
-
-The game starts up, you see the splashscreen "Cold Mustard" and later a menu for which you can select a gamemode. When a game is started you will select how many "Books" you wish to generate. All of these books are procedurally generated, so it makes every game unique.  Once a game is started, a user will be given a book to shelve. This user will navage through menus of books in order to find the correct placement of the levels book. These books are all sorted by a set of cannon rules based off its content. This gives each individual book a specific call number. In order to find the correct spot for a book, a user will iterate through book titles and look through a books content in order to find the correct placement of any given book.
-
-The game is never won, but progressively get harder... Like pac-man.
