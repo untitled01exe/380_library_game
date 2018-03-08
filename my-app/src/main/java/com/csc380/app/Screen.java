@@ -3,7 +3,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Screen {
 
-    private String[] screen_array = new String[36];
+    private String[] screen_array = new String[35];
     private String screen_print;
 
     public void build_screen() {
@@ -18,7 +18,7 @@ public class Screen {
 
     public void config_test() {
         for (int i = 0; i < screen_array.length; i++) {
-            screen_array[i] = "|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|";
+            screen_array[i] = "|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TEST|TE";
         }
     }
 
@@ -30,11 +30,11 @@ public class Screen {
 
     public void splash_screen() {
         this.clear();
-    screen_array[16] = "                              COLD MUSTARD                                  ";
-    screen_array[17] = "                               /W kastsup                                   ";
+    screen_array[16] = "                               COLDMUSTARD";
+    screen_array[17] = "                                W kastsup";
     this.build_screen();
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(1);
             screen_array[34] = "LOADING.";
             this.build_screen();
         } catch (InterruptedException e) {
@@ -42,7 +42,7 @@ public class Screen {
         }
 
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(1);
             screen_array[34] = "LOADING..";
             this.build_screen();
         } catch (InterruptedException e) {
@@ -50,7 +50,7 @@ public class Screen {
         }
 
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(1);
             screen_array[34] = "LOADING...";
             this.build_screen();
         } catch (InterruptedException e) {
@@ -58,7 +58,7 @@ public class Screen {
         }
 
         try {
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(1);
             this.menu();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -74,42 +74,15 @@ public class Screen {
         screen_array[33]= "Type all commands...";
         this.build_screen();
     }
+
+    public void page(String[] books, int pageNum, int max) {
+        this.clear();
+        for (int i = 1; i < 31; i++) {
+            screen_array[i + 2] = i + ": " + books[i - 1];
+        }
+        screen_array[1] = "BOOKS:";
+        screen_array[34] = "PAGE " + pageNum + " OF " + max;
+        screen_array[35] = "TYPE help FOR HELP";
+        this.build_screen();
+    }
 }
-/*
-
-Books:                                                                          .
-
-1:
-2:
-3:
-4:
-5:
-6:
-7:
-8:
-9:
-10:
-11:
-12:
-13:
-14:
-15:
-16:
-17:
-18:
-19:
-20:
-21:
-22:
-23:
-24:
-25:
-26:
-27:
-28:
-29:
-30:
-
-Page 1 of 2
-Type "help" for help
- */
