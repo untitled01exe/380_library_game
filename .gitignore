@@ -1,4 +1,4 @@
-/target/
+my-app/target/
 /bin/
 *.class
 *.log

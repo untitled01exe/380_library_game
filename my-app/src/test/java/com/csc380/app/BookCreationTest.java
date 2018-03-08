@@ -4,7 +4,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class BookCreationTests extends TestCase
+public class BookCreationTest extends TestCase
 {
 	Book book = new Book("title", "author", "bio", "Test001", 0);
 

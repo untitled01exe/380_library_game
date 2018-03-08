@@ -7,15 +7,15 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class BkGeneratorTests extends TestCase {
+public class BkGeneratorTest extends TestCase {
 	ArrayList<Book> books = new ArrayList<Book>();
 
-	/*public void testArrayListCreation() throws FileNotFoundException{
+	public void testArrayListCreation() throws FileNotFoundException{
 		books = BkGenerator.generator();
 		assertNotNull(books);
 	}
 
-	public void testArrayListFilled() {
+	/*public void testArrayListFilled() {
 		assertTrue(!books.isEmpty());
 	}*/
 }
