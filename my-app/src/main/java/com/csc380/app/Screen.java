@@ -81,8 +81,8 @@ public class Screen {
             screen_array[i + 2] = i + ": " + books[i - 1];
         }
         screen_array[1] = "BOOKS:";
-        screen_array[34] = "PAGE " + pageNum + " OF " + max;
-        screen_array[35] = "TYPE help FOR HELP";
+        screen_array[33] = "PAGE " + pageNum + " OF " + max;
+        screen_array[34] = "TYPE help FOR HELP";
         this.build_screen();
     }
 }
